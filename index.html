@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>PRABHAT TIWARI</title>
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="index.css" type="text/css" rel="stylesheet">
@@ -14,7 +16,7 @@
         <nav id="navbar" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <div class="container">
               
-              <a class="navbar-brand" href="#"> <i class="fa fa-picture-o" aria-hidden="true"></i> PRATT</a>
+              <a class="navbar-brand" href="#"> <i class="fa fa-product-hunt" aria-hidden="true"></i>T</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
               </button>
@@ -26,10 +28,10 @@
                 </ul>
                 <hr>
                 <ul class="navbar-nav my-2">
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#welcome-section">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills-section">Skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact-me">Contact</a></li>
                 </ul>
               </div>
             </div>
@@ -42,61 +44,85 @@
                 <h1>
                     Hii, I'm Prabhat
                 </h1>
-                <p>
+                <p class="red-paragraph">
                     a web developer
                 </p>
             </section>
 
             <section id="skills-section" class="skills-section">
-                <div class="skills-container">
+                <div id="skills">
+                    <h2>skills</h2>
+                </div>
+                <div id="skills-container">
 
                     <div class="skill-tile">
-
+                        <img class="skill-img" src="https://img.icons8.com/color/96/000000/html-5.png">
                     </div>
 
                     <div class="skill-tile">
-
+                        <img class="skill-img" src="https://img.icons8.com/color/96/000000/css3.png">
                     </div>
 
                     <div class="skill-tile">
-
+                        <img class="skill-img" src="https://img.icons8.com/color/96/000000/bootstrap.png">
                     </div>
 
                     <div class="skill-tile">
-
+                        <img class="skill-img" src="https://img.icons8.com/color/96/000000/javascript.png">
                     </div>
 
                     <div class="skill-tile">
-
+                        <img class="skill-img" src="https://img.icons8.com/ios-filled/100/000000/jquery.png">
                     </div>
 
                     <div class="skill-tile">
+                        <img class="skill-img" src="https://img.icons8.com/color/96/000000/nodejs.png">
+                    </div>
 
+                    <div id="express" class="skill-tile">
+                        <img class="skill-img" src="express-logo.png">
                     </div>
 
                     <div class="skill-tile">
+                        <img class="skill-img" src="https://img.icons8.com/color/96/000000/git.png">
+                    </div>
 
+                    <div class="skill-tile">
+                        <img class="skill-img" src="https://img.icons8.com/color/96/000000/c-plus-plus-logo.png">
                     </div>
                 </div>
 
             </section>
 
-            <section id="projects" class="projects">
+            <!-- <section id="projects" class="projects">
                 <div class="projects-container">
 
                     <div class="project-tile">
-
+                        <a href="https://codepen.io/thisis_pratt/full/VJWzav" target="_blank">
+                            <img src="tribute.JPG" alt="tribute-page">
+                        </a>
                     </div>
 
                     <div class="project-tile">
-
+                        <a href="https://codepen.io/thisis_pratt/full/gOYBRdd" target="_blank">
+                            <img src="img-gal-project.JPG" alt="Img-gallery-Project">
+                        </a>
                     </div>
 
                     <div class="project-tile">
-
+                        <a href="https://thisispratt.github.io/Color-game/" target="_blank">
+                            <img src="color-game.JPG" alt="color-game">
+                        </a>
                     </div>
+
+                    <div class="project-tile">
+                        <a href="#" target="">
+                            <img src="project-matchup.JPG" alt="project-matchup">
+                        </a>
+                    </div>
+
                 </div>
-            </section>
+            </section> -->
         </main>
 
         <footer>
@@ -106,13 +132,32 @@
             <section id="social-handles">
                 <div id="social-handles-container">
                     <div>
-                        <!--Use id="profile-link with anchor tag"-->
+                        <a id="instagram-link" href="https://www.instagram.com/thisis_pratt/" target="_blank">
+                            <img id="instagram-img" class="social-links" src="https://img.icons8.com/cotton/64/000000/instagram-new.png">
+                        </a>
                     </div>
-                        <!--Add as many divs as the no. of account handles(like IG,Github,Twitter,Linkedin,Email)-->
+
+                    <div>
+                        <a id="profile-link" href="https://github.com/thisispratt" target="_blank">
+                            <img id="github-img"  class="social-links" src="https://img.icons8.com/nolan/64/github.png">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a id="twitter-link" href="https://twitter.com/thisis_pratt">
+                            <img id="twitter-img" class="social-links" src="https://img.icons8.com/color/48/000000/twitter.png">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a id="linkedin-link" href="https://www.linkedin.com/in/thisispratt/">
+                            <img id="linkedin-img" class="social-links" src="https://img.icons8.com/color/48/000000/linkedin.png">
+                        </a>
+                    </div>
                 </div>
             </section>
             <section id="madeby">
-                <p class="madebypara">Made with lots of <!--Heart emoji--> and <!--coffee emoji--></p>
+                <p class="madebypara">Made with lots of<img id="heart-img" src="https://img.icons8.com/color/48/000000/filled-like.png"></p>
             </section>
         </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
