@@ -26,6 +26,7 @@ main{
     font-family: "Permanent Marker", "cursive";
     padding: 35vh 0;
     color: rgb(255,255,255);
+    /* using linear-gradient to set the pattern for the background. */
     background: rgb(75,75,75);
     background: linear-gradient(0deg, rgba(75,75,75,1) 0%, rgba(6,7,6,1) 92%);
     /* background-color: rgb(65, 63, 63);
@@ -151,6 +152,8 @@ footer>#madeby{
     transition: transform 1s;
     transform: translate(0,-7px);
 }
+
+/* Setting up the media queries for responsive design on small devices */
 @media(max-width: 800px){
     
     #welcome-section>h1{
