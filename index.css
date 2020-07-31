@@ -1,5 +1,5 @@
 :root{
-    --my-red: rgb(255, 109, 109);
+    --my-red: rgb(245, 18, 18);
 }
 
 body{
@@ -14,7 +14,7 @@ main{
     background-color:rgba(6, 7, 6, 1) !important;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(253, 75, 75, 0.801);
+    color: rgba(255, 41, 41, 0.801);
 }
 .nav-link:hover{
     color: var(--my-red) !important;
@@ -49,7 +49,7 @@ main{
     /* background: rgb(177,177,177);
     background: radial-gradient(circle, rgba(177,177,177,1) 11%, rgba(85,85,85,1) 54%); */
     text-align: center;
-    padding: 8vh 0 8vh 0;
+    padding: 8vh 0 8vh 0;       
 }
 .h2-headings{
     text-align: center;
@@ -147,6 +147,10 @@ footer>#madeby{
 }
 #heart-img{
     transform: scale(0.4);
+}
+.social-links{
+    /* scales down the size of the image used */
+    transform: scale(0.9);
 }
 .social-links:hover{
     transition: transform 1s;
